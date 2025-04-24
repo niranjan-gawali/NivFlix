@@ -25,19 +25,3 @@ export const fetchMovies = async ({ query }: { query: string }) => {
 
   return data.results;
 };
-
-// const url =
-//   '/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc';
-// const options = {
-//   method: 'GET',
-//   headers: {
-//     accept: 'application/json',
-//     Authorization:
-//       'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYzEzNTljMTYxMDFmYjBhMjA4OTkwZGE5MzkxN2JjMCIsIm5iZiI6MTY5Nzc4MTIyOC4wODcwMDAxLCJzdWIiOiI2NTMyMTVlYzhkMjJmYzAxMGI3MWI5ODkiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.QskuH4VtajkLKB5WaPsIAoqVBwCgT5AKPFt36OfcLDs',
-//   },
-// };
-
-// fetch(url, options)
-//   .then((res) => res.json())
-//   .then((json) => console.log(json))
-//   .catch((err) => console.error(err));
